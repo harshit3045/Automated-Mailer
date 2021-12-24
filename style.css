@@ -1,0 +1,39 @@
+*{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    display: flex;
+    place-content: center;
+    
+    padding: 5px;
+    width: 98%;
+    height: 98vh;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+.front{
+    margin-top: 150px;
+    width:min-content;
+    height:min-content;
+    border-radius: 10px;
+    background-color: rgba(253, 235, 235, 0.5);
+}
+.main input{
+    margin: 10px;
+    padding: 2px;
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 30px;
+}
+.main button{
+    margin: 7px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
